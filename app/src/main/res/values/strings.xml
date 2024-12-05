@@ -119,11 +119,7 @@
          "Sherif Yehia  622183\n"
          "Pola Ibrahim  622006\n"
         </string>
-    <string name="mohamed_abdelaziz">"Mohamed Abdelaziz\n"
-                                     "Fresh graduated from computer and information science"
-                                     "Ain shams university\n"
-                                     "Mohamed_elsharkawey@outlook.com"
-    </string>
+
     <string name="terms_of_service_title">Terms of Service</string>
     <string name="terms_of_service_last_updated">Last Updated: December 5 , 2024</string>
     <string name="terms_of_service_intro">
