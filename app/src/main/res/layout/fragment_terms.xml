@@ -181,21 +181,5 @@
             android:text="@string/terms_of_service_governing_law_body"
             android:paddingBottom="16dp" />
 
-        <!-- Section 10: Contact Us -->
-        <TextView
-            android:id="@+id/terms_of_service_contact_title"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/terms_of_service_contact_title"
-            android:textStyle="bold"
-            android:paddingBottom="8dp" />
-
-        <TextView
-            android:id="@+id/terms_of_service_contact_body"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/terms_of_service_contact_body"
-            android:paddingBottom="16dp" />
-
     </LinearLayout>
 </ScrollView>

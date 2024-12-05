@@ -16,7 +16,7 @@
             <View
                 android:id="@+id/header"
                 android:layout_width="0dp"
-                android:layout_height="233dp"
+                android:layout_height="0dp"
                 android:background="@drawable/profile_header"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -40,7 +40,7 @@
                 android:fontFamily="@font/poppins_bold"
                 android:gravity="center"
                 android:paddingTop="3dp"
-                android:text="Abdallah Amin"
+                android:text="My Team"
                 android:textColor="@color/black"
                 android:textSize="22sp"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -53,7 +53,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/poppins_regular"
                 android:gravity="center"
-                android:text="abdllahamin14700@gmail.com"
+                android:text="myteam@gmail.com"
                 android:textColor="@color/black"
                 android:textSize="14sp"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -81,144 +81,10 @@
                 android:layout_marginEnd="24dp"
                 android:elevation="4dp"
                 app:cardCornerRadius="8dp"
+                app:layout_constraintBottom_toTopOf="@+id/app_information_cv"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/profile_email">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="16dp"
-                    android:layout_marginTop="14dp"
-                    android:layout_marginEnd="16dp"
-                    android:layout_marginBottom="14dp"
-                    android:orientation="vertical">
-
-                    <LinearLayout
-                        android:id="@+id/edit_profile_info"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal"
-                        android:paddingTop="12dp"
-                        android:paddingBottom="12dp">
-
-                        <ImageView
-                            android:layout_width="24dp"
-                            android:layout_height="24dp"
-                            android:src="@drawable/edit_profile_info" />
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:layout_marginStart="14dp"
-                            android:fontFamily="@font/poppins_regular"
-                            android:gravity="center_vertical"
-
-                            android:text="Edit personal information"
-                            android:textColor="@color/black"
-                            android:textSize="16sp" />
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:id="@+id/change_email"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal"
-
-                        android:paddingTop="12dp"
-                        android:paddingBottom="12dp">
-
-                        <ImageView
-                            android:layout_width="24dp"
-                            android:layout_height="24dp"
-                            android:padding="2dp"
-                            android:src="@drawable/ic_email" />
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:layout_marginStart="14dp"
-                            android:fontFamily="@font/poppins_regular"
-                            android:gravity="center_vertical"
-
-                            android:text="Change email"
-                            android:textColor="@color/black"
-                            android:textSize="16sp" />
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:id="@+id/change_password"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-
-                        android:orientation="horizontal"
-                        android:paddingTop="12dp"
-                        android:paddingBottom="12dp">
-
-                        <ImageView
-                            android:layout_width="24dp"
-                            android:layout_height="24dp"
-                            android:padding="2dp"
-                            android:src="@drawable/ic_password" />
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:layout_marginStart="14dp"
-                            android:fontFamily="@font/poppins_regular"
-                            android:gravity="center_vertical"
-
-                            android:text="Change password"
-                            android:textColor="@color/black"
-                            android:textSize="16sp" />
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:id="@+id/region"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-
-                        android:orientation="horizontal"
-                        android:paddingTop="12dp"
-                        android:paddingBottom="12dp">
-
-                        <ImageView
-                            android:layout_width="24dp"
-                            android:layout_height="24dp"
-                            android:src="@drawable/ic_region" />
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:layout_marginStart="14dp"
-                            android:fontFamily="@font/poppins_regular"
-                            android:gravity="center_vertical"
-
-                            android:text="Region"
-                            android:textColor="@color/black"
-                            android:textSize="16sp" />
-
-                    </LinearLayout>
-                </LinearLayout>
-
-            </androidx.cardview.widget.CardView>
-
-
-            <androidx.cardview.widget.CardView
-                android:id="@+id/preferences_cv"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="24dp"
-                android:layout_marginTop="33dp"
-                android:layout_marginEnd="24dp"
-                android:elevation="4dp"
-                app:cardCornerRadius="8dp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/account_settings_cv">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -255,44 +121,24 @@
 
                     </LinearLayout>
 
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal"
-                        >
 
-                        <ImageView
-                            android:layout_width="24dp"
-                            android:layout_height="24dp"
-                            android:padding="2dp"
-                            android:layout_gravity="center_vertical"
-                            android:src="@drawable/ic_dark_mode" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="match_parent"
-                            android:layout_marginStart="14dp"
-                            android:fontFamily="@font/poppins_regular"
-                            android:gravity="center_vertical"
-                            android:layout_weight="1"
-                            android:text="Dark Mode"
-                            android:textColor="@color/black"
-                            android:textSize="16sp" />
-
-                        <com.google.android.material.switchmaterial.SwitchMaterial
-                            android:id="@+id/dark_mode_switch"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginEnd="14dp"
-                            android:layout_gravity="center_vertical|end"
-                            style="@style/Widget.Material3.CompoundButton.MaterialSwitch"
-
-                            />
-
-
-
-                    </LinearLayout>
                 </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/preferences_cv"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginTop="491dp"
+                android:layout_marginEnd="24dp"
+                android:elevation="4dp"
+                app:cardCornerRadius="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_chainStyle="spread">
+
 
             </androidx.cardview.widget.CardView>
 
@@ -306,9 +152,13 @@
                 android:layout_marginEnd="24dp"
                 android:elevation="4dp"
                 app:cardCornerRadius="8dp"
+                app:layout_constraintBottom_toTopOf="@+id/account_actions_cv"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/preferences_cv">
+                app:layout_constraintTop_toBottomOf="@+id/preferences_cv">
+
+
 
                 <LinearLayout
                     android:layout_width="match_parent"

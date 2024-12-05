@@ -149,21 +149,5 @@
             android:text="@string/privacy_policy_changes_body"
             android:paddingBottom="16dp" />
 
-        <!-- Section 8: Contact Us -->
-        <TextView
-            android:id="@+id/privacy_policy_contact_title"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/privacy_policy_contact_title"
-            android:textStyle="bold"
-            android:paddingBottom="8dp" />
-
-        <TextView
-            android:id="@+id/privacy_policy_contact_body"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/privacy_policy_contact_body"
-            android:paddingBottom="16dp" />
-
     </LinearLayout>
 </ScrollView>

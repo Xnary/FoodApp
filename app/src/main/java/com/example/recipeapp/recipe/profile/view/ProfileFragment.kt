@@ -88,12 +88,7 @@ class ProfileFragment : Fragment() {
             findNavController().navigate(R.id.action_profileFragment_to_aboutFragment)
         }
 
-        binding.darkModeSwitch.isChecked = settingsSharedPreferences.getBoolean(IS_DARK_MODE, false)
 
-        binding.darkModeSwitch.setOnCheckedChangeListener { _, isChecked ->
-            settingsSharedPreferences.edit().putBoolean(IS_DARK_MODE, isChecked).apply()
-            viewModel.setDarkMode(isChecked)
-        }
 
         binding.termsOfService.setOnClickListener {
             findNavController().navigate(R.id.action_profileFragment_to_termsFragment)

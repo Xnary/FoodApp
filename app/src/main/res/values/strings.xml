@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">RecipeApp</string>
+    <string name="app_name">FoodApp</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="email">Email</string>
     <string name="enter_username">Username</string>
@@ -107,20 +107,27 @@
     <string name="description">Description</string>
     <string name="title">Title</string>
     <string name="Register">Register</string>
-    <string name="about">"This application features multiple fragments and activities "
-                        "to handle authentication, recipe browsing,and favorites management."
-                        "It includes splash and login screens,a home page with recipe lists,"
-                        "detailed recipe views,and integrated search and favorite functionalities,"
-                        "all navigated through a bottom navigation component and a local database".</string>
+    <string name="aboutTeam">
+         "Mohamed Elsewedy  622037\n"
+         "Mohamed Hesham  622006\n"
+         "Mohamed Wael  622122\n"
+         "Mohamed Ismail  622063\n"
+         "Mostafa Mahmoud  622053\n"
+         "Mostafa Elfadaly  622080\n"
+         "Yousef Kelany  622056\n"
+         "Yousef Zain  622009\n"
+         "Sherif Yehia  622183\n"
+         "Pola Ibrahim  622006\n"
+        </string>
     <string name="mohamed_abdelaziz">"Mohamed Abdelaziz\n"
                                      "Fresh graduated from computer and information science"
                                      "Ain shams university\n"
                                      "Mohamed_elsharkawey@outlook.com"
     </string>
     <string name="terms_of_service_title">Terms of Service</string>
-    <string name="terms_of_service_last_updated">Last Updated: August 28, 2024</string>
+    <string name="terms_of_service_last_updated">Last Updated: December 5 , 2024</string>
     <string name="terms_of_service_intro">
-        Welcome to Recipe App ("we", "our", or "us"). These Terms of Service ("Terms") govern your access to and use of our mobile application ("App") and related services (collectively, the "Service"). By using our Service, you agree to be bound by these Terms. If you do not agree to these Terms, please do not use the Service.
+        Welcome to Food App ("we", "our", or "us"). These Terms of Service ("Terms") govern your access to and use of our mobile application ("App") and related services (collectively, the "Service"). By using our Service, you agree to be bound by these Terms. If you do not agree to these Terms, please do not use the Service.
     </string>
 
     <string name="terms_of_service_acceptance_title">1. Acceptance of Terms</string>
@@ -182,20 +189,15 @@
         These Terms shall be governed by and construed in accordance with the laws of Egypt, without regard to its conflict of law principles.
     </string>
 
-    <string name="terms_of_service_contact_title">10. Contact Us</string>
-    <string name="terms_of_service_contact_body">
-        If you have any questions or concerns about these Terms, please contact us at support@recipeapp.com.
-    </string>
-
     <!-- Privacy Policy Title -->
     <string name="privacy_policy_title">Privacy Policy</string>
 
     <!-- Last Updated -->
-    <string name="privacy_policy_last_updated">Last Updated: August 28, 2024</string>
+    <string name="privacy_policy_last_updated">Last Updated: December 5, 2024</string>
 
     <!-- Introduction -->
     <string name="privacy_policy_intro">
-        RecipeMaster ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application ("App") and related services (collectively, the "Service"). By using our Service, you consent to the practices described in this policy.
+        FoodApp ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application ("App") and related services (collectively, the "Service"). By using our Service, you consent to the practices described in this policy.
     </string>
 
     <!-- Information We Collect -->
@@ -290,14 +292,13 @@
     </string>
 
     <!-- Contact Us -->
-    <string name="privacy_policy_contact_title">8. Contact Us</string>
-    <string name="privacy_policy_contact_body">
-        If you have any questions or concerns about this Privacy Policy, please contact us at <a href="mailto:support@recipemaster.com">abdllahamin14700@gmail.com</a>.
-    </string>
     <string name="contact_us_title">Contact Us</string>
     <string name="contact_us_body">
         If you have any questions or concerns about this Privacy Policy or our practices, please contact us at:
         <br />
-        <a href="mailto:support@recipemaster.com">abdllahamin14700@gmail.com</a>
+        <a href="mailto:support@foodemaster.com">Moelsewedy1@gmail.com\n</a>
+        <a href="mailto:support@foodemaster.com">MohamedHesham74@gmail.com\n</a>
+        <a href="mailto:support@foodmaster.com">Mohamedweal2004@gmail.com\n</a>
+        <a href="mailto:support@foodmaster.com">Aboismail@gmail.com\n</a>
     </string>
 </resources>
